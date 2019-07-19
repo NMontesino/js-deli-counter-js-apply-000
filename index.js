@@ -5,6 +5,14 @@ function takeANumber(lineNum, lineName)
   return "Welcome, " + lineName + ". You are number " + lineNum.length + " in line."
 }
 
+var i = 0; 
+
+function takeANumber2()
+{
+  i++;
+  return "Welcome.  Your ticket number is: " + i;
+}
+
 function nowServing(lineNum)
 {
   var first = lineNum.shift();
